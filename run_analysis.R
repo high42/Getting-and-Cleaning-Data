@@ -110,11 +110,8 @@ cleanDS_mean <- cleanDS %>%
 
 #spit txt with results
 write.table(cleanDS_mean, "data/spit_data.txt",
-            row.names = TRUE)
+            row.names = FALSE)
 
-#spit csv with results
-write.table(cleanDS_mean, "data/spit_data.csv",
-            row.names = TRUE)
 
 
 
